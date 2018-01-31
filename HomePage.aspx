@@ -39,6 +39,17 @@
   </div>
       </div>
 </nav>
+ 
+ <div id="light">
+  <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+  <video id="samplevideo" width="600" controls>
+      <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4>
+      <!--Browser does not support <video> tag -->
+    </video>
+</div>
+
+<div id="fade" onClick="lightbox_close();"></div>
+
 
 
 
@@ -48,8 +59,8 @@
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <h5>Hello, world! Full width Hero-unit header</h5> 
           <div class="my-class">
-          <a href="#" class="btn btn-default">WATCH VIDEO</a> 
-              </div>
+  <a href="#" onclick="lightbox_open();" class="btn btn-default" >Watch video</a>
+</div>
           </div>
         
   </div>
